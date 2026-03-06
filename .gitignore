@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project runtime outputs
+tempDir/
+*.avi
+*.mp4
+
+# Model weights - 保留 weights/ 目录下的预训练权重
+# (如需上传自己训练的权重，请手动 git add -f)
+
+# Datasets - 排除大体积图像与标签，保留 yaml 配置
+datasets/data/train/images/
+datasets/data/train/labels/
+datasets/data/val/images/
+datasets/data/val/labels/
+datasets/data/test/images/
+datasets/data/test/labels/
+
+# Runs - 排除训练中间产物，保留学术图表和最优权重
+runs/segment/*/weights/last.pt
+runs/segment/**/events.out.*
+runs/segment/**/labels*.jpg
+runs/segment/**/train_batch*.jpg
+
+# Logs
+*.log
+
+# Misc caches and temp weights
+*.cache
+yolo*.pt
+!weights/*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ultralytics cache
+ultralytics/

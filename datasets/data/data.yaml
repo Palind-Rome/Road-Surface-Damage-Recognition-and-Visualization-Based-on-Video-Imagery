@@ -1,0 +1,15 @@
+train: D:/SITP/SITPproject/datasets/data/train
+val: D:/SITP/SITPproject/datasets/data/val
+test: D:/SITP/SITPproject/datasets/data/test
+nc: 10
+names:
+- Construction Materials
+- Crack
+- Damaged Curb
+- Digging
+- Improper Barrier
+- Improper Fencing
+- Non Painted Curb
+- Painted Curb
+- Ponding Water
+- Pothole
