@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="icon/pavement_ai_logo.png" alt="Tongji University SITP Pavement AI Logo" width="600" />
+
+# ✨ 同济大学SITP项目
+
+### **基于视频图像的路面病害识别与展示系统 (Pavement AI)**
+
+自主研发 🚀  YOLOv8 & DeepSeek 深度融合 🧠
+
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/) [![AI Models](https://img.shields.io/badge/YOLOv8--seg--FF5722?style=flat&logo=pytorch&logoColor=white)](https://ultralytics.com/) [![AI Models](https://img.shields.io/badge/DeepSeek--V3--20c997?style=flat&logo=deepmind&logoColor=white)](https://www.deepseek.com/) [![License: SITP/Academic](https://img.shields.io/badge/License-SITP%2FAcademic-pruple)](https://www.tongji.edu.cn/) [![GitHub stars](https://img.shields.io/github/stars/Palind-Rome/Road-Surface-Damage-Recognition-and-Visualization-Based-on-Video-Imagery?style=social)](https://github.com/Palind-Rome/Road-Surface-Damage-Recognition-and-Visualization-Based-on-Video-Imagery)
+---
 # 同济大学SITP项目：基于视频图像的路面病害识别与展示系统
 
 ## 📌 项目简介
