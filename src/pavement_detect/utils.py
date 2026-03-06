@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-路径与文件工具 —— 替代原项目中对 QtFusion.path 等的依赖。
+路径与文件工具模块。
 """
 
 from __future__ import annotations
@@ -23,7 +23,6 @@ PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent.parent
 def abs_path(relative: str) -> str:
     """
     将相对路径转换为基于项目根目录的绝对路径。
-    功能等同于原项目 ``QtFusion.path.abs_path``。
     """
     return str(PROJECT_ROOT / relative)
 

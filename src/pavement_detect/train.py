@@ -26,7 +26,7 @@ def main() -> None:
     
     if not data_yaml_path.exists():
         print(f"数据配置文件不存在：{data_yaml_path}")
-        print("请在运行前从原项目迁移 datasets/ 文件夹至 SITPproject 目录下。")
+        print("请在运行前确保 datasets/ 文件夹存在于 SITPproject 目录下。")
         sys.exit(1)
         
     # ====== 重写 data.yaml 内部绝对路径 ======

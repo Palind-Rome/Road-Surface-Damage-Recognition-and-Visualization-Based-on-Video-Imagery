@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-YOLOv8 检测器封装 —— 替代原项目对 QtFusion.models.Detector 的继承。
+YOLOv8 检测器封装模块。
 """
 
 from __future__ import annotations

@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 绘图工具模块 —— 在图像上绘制检测结果（分割掩码、边界框、中文标签等）。
-替代原项目对 QtFusion.utils.drawRectBox 的依赖，
-并将原先分散在 web.py / demo_test_*.py 中的重复绘图函数统一到此处。
+将之前分散在 web.py / demo_test_*.py 中的绘图函数统一到此处。
 """
 
 from __future__ import annotations
@@ -158,7 +157,7 @@ def draw_rect_box(
     color: list[int] | tuple[int, ...] = (0, 255, 0),
 ) -> np.ndarray:
     """
-    绘制半透明矩形框 + 标签文本（替代 QtFusion.utils.drawRectBox）。
+    绘制半透明矩形框 + 标签文本。
     """
     x1, y1, x2, y2 = [int(c) for c in bbox]
     overlay = image.copy()
